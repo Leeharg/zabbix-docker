@@ -1,3 +1,18 @@
+Hi,
+
+Basically  this is a fork of the official zabbix docker repo but with an added script.  I was struggling to get the server zabbix server monitoring working when following the offical documentation.
+
+to get started run sudo ./zabbix.sh and this will install the ubuntu version with mysql if you require another base you will need to edit the script.
+
+then access zabbix and change the zabbix-server ip to the one provided from the scipt. 
+
+this is only my first github repo and second script so don't expect much but it works for me!!
+
+
+Officaly zabbix stuff below:
+
+
+
 ![logo](https://assets.zabbix.com/img/logo/zabbix_logo_500x131.png)
 
 [![Build images (DockerHub)](https://github.com/zabbix/zabbix-docker/actions/workflows/images_build.yml/badge.svg?branch=6.0&event=push)](https://github.com/zabbix/zabbix-docker/actions/workflows/images_build.yml)
